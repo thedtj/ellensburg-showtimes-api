@@ -5,7 +5,7 @@ import './lib/cron'
 const app = express()
 
 // eslint-disable-next-line no-unused-vars
-app.get('/', async (req, res, next) => {
+app.get('/api', async (req, res, next) => {
 
 	const showtimesHTML = await getHTML(
 		'http://ellensburgmovies.com/gmc_html/gmc_html_showtimes.html'
