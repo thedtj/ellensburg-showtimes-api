@@ -1,0 +1,152 @@
+{
+  "dates": [
+    {
+      "freshData": "Friday, September 6 - Thursday, September 12, 2019",
+      "refreshed": 1567908840333
+    }
+  ],
+  "movies": [
+    {
+      "freshData": [
+        {
+          "title": "OVERCOMER",
+          "runningTime": "1hr 59min",
+          "rating": "PG",
+          "showtimes": [
+            "1:45",
+            "4:10",
+            "6:45",
+            "9:10"
+          ]
+        },
+        {
+          "title": "THE FAREWELL",
+          "runningTime": "1hr 40min",
+          "rating": "PG",
+          "showtimes": [
+            "2:00",
+            "4:15",
+            "6:50",
+            "8:50"
+          ]
+        },
+        {
+          "title": "READY OR NOT",
+          "runningTime": "1hr 36min",
+          "rating": "R",
+          "showtimes": [
+            "2:15",
+            "4:30",
+            "7:00",
+            "9:00"
+          ]
+        },
+        {
+          "title": "IT CHAPTER TWO",
+          "runningTime": "2hr 49min",
+          "rating": "R",
+          "showtimes": [
+            "1:15",
+            "4:30",
+            "7:45"
+          ]
+        },
+        {
+          "title": "SPIDER-MAN: FAR FROM HOME",
+          "runningTime": "2hr 13min",
+          "rating": "PG-13",
+          "showtimes": [
+            "Now Featuring Bonus Content",
+            "1:20",
+            "4:00"
+          ]
+        },
+        {
+          "title": "47 METERS DOWN: UNCAGED",
+          "runningTime": "1hr 30min",
+          "rating": "PG-13",
+          "showtimes": [
+            "7:00",
+            "9:15"
+          ]
+        },
+        {
+          "title": "ANGEL HAS FALLEN",
+          "runningTime": "2hr 01min",
+          "rating": "R",
+          "showtimes": [
+            "1:45",
+            "4:15",
+            "6:45",
+            "9:15"
+          ]
+        },
+        {
+          "title": "ART OF RACING IN THE RAIN",
+          "runningTime": "1hr 49min",
+          "rating": "PG",
+          "showtimes": [
+            "2:10",
+            "4:30"
+          ]
+        },
+        {
+          "title": "GOOD BOYS",
+          "runningTime": "1hr 30min",
+          "rating": "R",
+          "showtimes": [
+            "2:20",
+            "4:20",
+            "7:00",
+            "9:00"
+          ]
+        },
+        {
+          "title": "THE LION KING",
+          "runningTime": "1hr 58min",
+          "rating": "PG",
+          "showtimes": [
+            "1:30",
+            "4:10",
+            "6:40",
+            "9:00"
+          ]
+        }
+      ],
+      "refreshed": 1567908840336
+    }
+  ],
+  "comingSoon": [
+    {
+      "freshData": [
+        {
+          "title": "Coming Soon:",
+          "runningTime": "(Subject to change)",
+          "rating": "Release Date",
+          "showtimes": [
+            "Rating"
+          ]
+        },
+        {
+          "title": "HUSTLERS",
+          "runningTime": "September 13",
+          "rating": "R",
+          "showtimes": []
+        },
+        {
+          "title": "RAMBO: LAST BLOOD",
+          "runningTime": "September 20",
+          "rating": "R",
+          "showtimes": []
+        },
+        {
+          "title": "DOWNTON ABBEY",
+          "runningTime": "September 20",
+          "rating": "PG",
+          "showtimes": []
+        }
+      ],
+      "refreshed": 1567908840338
+    }
+  ]
+}
