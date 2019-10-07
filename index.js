@@ -3,6 +3,7 @@
 // import './lib/cron'
 
 const express = require('express')
+const cors = require('cors')
 const db = require('./db.json')
 // eslint-disable-next-line no-unused-vars
 const cron = require('./lib/cron.js')
