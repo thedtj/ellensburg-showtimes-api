@@ -3,9 +3,9 @@
 // import './lib/cron'
 
 const express = require('express')
-const functions = require('./lib/scraper.js')
+// const functions = require('./lib/scraper.js')
 
-const {getHTML, getDates, getShowtimes} = functions
+const {getHTML, getDates, getShowtimes} = require('./lib/scraper.js')
 const cron = require('./lib/cron.js')
 
 const app = express()
