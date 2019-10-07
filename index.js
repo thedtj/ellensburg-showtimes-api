@@ -3,29 +3,17 @@
 // import './lib/cron'
 
 const express = require('express')
-// const functions = require('./lib/scraper.js')
-
-const {getHTML, getDates, getShowtimes} = require('./lib/scraper.js')
+const db = require('./db.json')
 const cron = require('./lib/cron.js')
 
 const app = express()
 
-// eslint-disable-next-line no-unused-vars
-app.get('/', async (req, res) => {
 
-	const showtimesHTML = await getHTML(
-		'http://ellensburgmovies.com/gmc_html/gmc_html_showtimes.html'
-	)
-
-	const [dates, { movies, comingSoon }] = await Promise.all([
-		getDates(showtimesHTML),
-		getShowtimes(showtimesHTML)
-	])
-
-	res.json({ dates, movies, comingSoon })
+app.get('/', (req, res) => {
+	res.json(db)
 })
 
-const PORT = process.eventNames.PORT || 5800
+const PORT = process.env.PORT || 5800
 
 app.listen(PORT, () => console.log(`app running on port ${PORT}`))
 

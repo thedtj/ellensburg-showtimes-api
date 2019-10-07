@@ -2,7 +2,7 @@
   "dates": [
     {
       "freshData": "Friday, October 4 - Thursday, October 10, 2019",
-      "refreshed": 1570481520180
+      "refreshed": 1570483980286
     }
   ],
   "movies": [
@@ -114,7 +114,7 @@
           ]
         }
       ],
-      "refreshed": 1570481520181
+      "refreshed": 1570483980288
     }
   ],
   "comingSoon": [
@@ -142,7 +142,7 @@
           "showtimes": []
         }
       ],
-      "refreshed": 1570481520183
+      "refreshed": 1570483980290
     }
   ]
 }
