@@ -4,6 +4,7 @@
 
 const express = require('express')
 const db = require('./db.json')
+// eslint-disable-next-line no-unused-vars
 const cron = require('./lib/cron.js')
 
 const app = express()
