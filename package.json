@@ -3,9 +3,13 @@
 	"version": "1.0.0",
 	"description": "Scrape showtimes from a local theatre and serve them via API.",
 	"main": "index.js",
+	"engines": {
+		"node": "12.x",
+		"npm": "6.x"
+	},
 	"scripts": {
-		"start": "node main",
-		"dev": "nodemon -r esm main.js --ignore *.json"
+		"start": "node index.js --experimental-modules",
+		"dev": "nodemon index.js --ignore *.json"
 	},
 	"keywords": [
 		"Cheerio",
